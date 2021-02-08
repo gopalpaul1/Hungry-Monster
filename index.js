@@ -41,7 +41,7 @@ const displayFoods = foods =>{
 const displayFood = async (idMeal) =>{
 
     const url = `https://www.themealdb.com/api/json/v1/1/lookup.php?i=${idMeal}`
-    const res = await fetch(url)
+    const res = await fetch(url);
     const data= await res.json();
      display(data.meals[0]);
      
