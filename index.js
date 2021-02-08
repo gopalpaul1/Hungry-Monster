@@ -28,10 +28,10 @@ const displayFoods = foods =>{
                 <img class="image" src="${food.strMealThumb}">
                 <h3 class="textAlign">${food.strMeal}</h3>
             </div>
+
         `
         foodDiv.innerHTML = foodInfo;
-        foodContainer.appendChild(foodDiv)
-        
+        foodContainer.appendChild(foodDiv)   
         
     });
 

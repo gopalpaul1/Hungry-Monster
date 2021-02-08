@@ -4,19 +4,27 @@ body{
 
 }
 
+.text{
+
+    margin-top: 100px;
+    text-align: center;
+    color: #092b2b;
+
+}
+
 #inputContent{
 
     display:flex;
     justify-content: center;
     align-content: center;
-    margin-top: 80px;
+    margin-top: 40px;
 
 }
 
 .input{
-
+    font-size: large;
     border: 2px solid gray;
-    width: 400px;
+    width: 460px;
     padding: 10px;
 
 }
@@ -32,7 +40,7 @@ body{
 
 }
 
-#foodContainer{
+.foods{
 
     margin-top: 80px;
     display: grid;
@@ -58,14 +66,6 @@ body{
 .image{
 
     width: 100%;
-
-}
-
-#foodDetail{
-
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    margin-top: 80px;
 
 }
 
