@@ -5,46 +5,60 @@ body{
 }
 
 #inputContent{
+
     display:flex;
     justify-content: center;
     align-content: center;
     margin-top: 80px;
+
 }
+
 .input{
+
     border: 2px solid gray;
     width: 400px;
     padding: 10px;
+
 }
 
 .button{
+
     width: 100px;
     padding: 10px;
     font-size: large;
     background-color: crimson;
     border: none;
     color: white;
+
 }
 
 #foodContainer{
+
     margin-top: 80px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 60px;
+
 }
 
 .foodContent{
+
     box-shadow: 5px 5px 20px grey;
-    /* padding: 10px; */
     width: 260px;
+
 }
 
 .textAlign{
+
     text-align: center;
     color: #092b2b;
+
 }
 
 .image{
+
     width: 100%;
+
 }
 
 #foodDetail{
@@ -56,8 +70,10 @@ body{
 }
 
 .ingredient{
+
     padding: 20px;
     color: #092b2b;
+
 }
 
 
