@@ -1,13 +1,13 @@
 
 //... Search For Food Names ...
 
-const searchFoods = () =>{
+const searchFoods = async() =>{
 
     const searchName = document.getElementById("searchArea").value;
     const url = `https://www.themealdb.com/api/json/v1/1/search.php?s=${searchName}`
-    fetch(url)
-    .then(res => res.json())
-    .then(data => displayFoods(data.meals))
+    const res = await fetch(url);
+    const data = await res.json();
+     displayFoods(data.meals);
 
 }
 
@@ -38,12 +38,12 @@ const displayFoods = foods =>{
 
 }
 
-const displayFood = (idMeal) =>{
+const displayFood = async (idMeal) =>{
 
     const url = `https://www.themealdb.com/api/json/v1/1/lookup.php?i=${idMeal}`
-    fetch(url)
-    .then(res => res.json())
-    .then(data => display(data.meals[0]))
+    const res = await fetch(url)
+    const data= await res.json();
+     display(data.meals[0]);
      
 }
 
