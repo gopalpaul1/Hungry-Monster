@@ -26,17 +26,15 @@ body{
 }
 
 #foodContainer{
-    margin-top: 60px;
+    margin-top: 80px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 60px;
 }
 
-
-
 .foodContent{
     box-shadow: 5px 5px 20px grey;
-    padding: 10px;
+    /* padding: 10px; */
     width: 260px;
 }
 
@@ -49,6 +47,18 @@ body{
     width: 100%;
 }
 
+#foodDetail{
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 80px;
+
+}
+
+.ingredient{
+    padding: 20px;
+    color: #092b2b;
+}
 
 
 
