@@ -16,6 +16,7 @@ const searchFoods = () =>{
 const displayFoods = foods =>{
 
     const foodContainer = document.getElementById("foodContainer");
+    foodContainer.innerHTML = '';
 
     foods.forEach(food => {
 
